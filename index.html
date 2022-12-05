@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Black Jack</title>
+        <link rel="stylesheet" href="blackjack.css">
+        <script src="blackjack.js"></script>
+    </head>
+
+    <body>  
+        <h1>Blackjack Online</h1>
+        <div class="container">
+            <div class="heading2">
+                <p ><b>Dealer: <span id="dealer-sum"></span></b></p>
+            </div>
+            
+            <div class="cardsDiv" id="dealer-cards">
+                <img id="hidden" src="./cards/blue_back.png">
+            </div>
+            <div class="heading2">
+                <p ><b>You: <span id="your-sum"></span></b></p>
+            </div>        
+            <div  class="cardsDiv" id="your-cards"></div>        
+            <div class="buttonsDiv" >
+                <h3 id="results"></h3>
+                <button id="hit">Hit</button>
+                <button id="stay">Stay</button>
+                <button id="start">Start</button>            
+            </div> 
+        </div>
+        
+        <p class="copyright">&copy; The copyright belongs to Rahul Akireddy </p>                          
+    </body>
+</html> 
